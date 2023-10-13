@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+<<<<<<< HEAD
+      <FullPath>D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw1\x64\Debug\hw1.exe</FullPath>
+=======
+      <FullPath>D:\Git\University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw1\x64\Debug\hw1.exe</FullPath>
+>>>>>>> 758feeff6a3870fd1eb22ff3f7c6c65d8610d14d
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,8 @@
+﻿  hw1.cpp
+<<<<<<< HEAD
+D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw1\hw1\hw1.cpp(19,39): warning C4267: '+=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw1\hw1\hw1.cpp(34,29): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  hw1.vcxproj -> D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw1\x64\Debug\hw1.exe
+=======
+  hw1.vcxproj -> D:\Git\University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw1\x64\Debug\hw1.exe
+>>>>>>> 758feeff6a3870fd1eb22ff3f7c6c65d8610d14d

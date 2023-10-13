@@ -1,0 +1,3 @@
+A - https://judge.koreatech.ac.kr/showsource.php?id=99577
+B - https://judge.koreatech.ac.kr/showsource.php?id=99500
+C - https://judge.koreatech.ac.kr/showsource.php?id=99497

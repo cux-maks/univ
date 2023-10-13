@@ -1,0 +1,29 @@
+/* 
+ * No.1
+ */
+\sqlexec_{SELECT DISTINCT bar FROM Serves WHERE price>=3};
+
+/* 
+ * No.2
+ */
+\sqlexec_{SELECT bar, price FROM Serves WHERE beer='Dixie'};
+
+/* 
+ * No.3
+ */
+\sqlexec_{SELECT drinker, address, bar FROM Frequents JOIN Drinker ON name=drinker AND times_a_week=2};
+
+/* 
+ * No.4 - and
+ */
+\sqlexec_{SELECT Likes.drinker, Drinker.address FROM Likes JOIN Drinker ON Likes.drinker = Drinker.name WHERE beer = 'Budweiser' INTERSECT SELECT Likes.drinker, Drinker.address FROM Likes JOIN Drinker ON Likes.drinker = Drinker.name WHERE beer = 'Corona'};
+
+/*
+ * No.4 - or
+ */
+\sqlexec_{SELECT DISTINCT name, address FROM Likes JOIN Drinker ON drinker = name WHERE beer = 'Budweiser' or beer = 'Corona'};
+
+/* 
+ * No.5
+ */
+ \sqlexec_{SELECT Frequents.bar, Likes.beer, Serves.price FROM Frequents JOIN Bar ON Frequents.bar=BAr.name JOIN Likes ON Frequents.drinker=Likes.drinker JOIN Serves ON Frequents.bar=Serves.bar and Likes.beer=Serves.beer WHERE Frequents.dinker='Ben'};

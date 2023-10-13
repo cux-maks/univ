@@ -1,0 +1,4 @@
+﻿  hw3.cpp
+D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw3\hw3\hw3.cpp(20): warning C4715: 'compareX': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw3\hw3\hw3.cpp(25): warning C4715: 'compareY': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  hw3.vcxproj -> D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\3주차\hw\hw3\x64\Debug\hw3.exe

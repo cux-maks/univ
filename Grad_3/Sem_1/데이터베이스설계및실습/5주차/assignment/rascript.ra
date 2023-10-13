@@ -1,0 +1,29 @@
+/* 
+ * No.1
+ */
+\project_{bar}(\select_{price>=3} Serves);
+
+/* 
+ * No.2
+ */
+\project_{bar, price}(\select_{beer='Dixie'} Serves);
+
+/* 
+ * No.3
+ */
+\project_{drinker, address, bar}(\select_{times_a_week=2} Frequents \join_{name=drinker} Drinker);
+
+/* 
+ * No.4 - and
+ */
+\project_{Likes.drinker, Drinker.address}((\project_{Likes.drinker, Drinker.address}(\select_{beer = 'Budweiser'} Likes \join_{Likes.drinker = Drinker.name} Drinker)) \intersect (\project_{Likes.drinker, Drinker.address}(\select_{beer = 'Corona'} Likes \join_{Likes.drinker = Drinker.name} Drinker)));
+
+/*
+ * No.4 - or
+ */
+\project_{name, address}(\select_{beer = 'Budweiser' or beer = 'Corona'} Likes \join_{drinker = name} Drinker);
+
+/* 
+ * No.5
+ */
+ \project_{Frequents.bar, Likes.beer, Serves.price}((((\select+{drinker='Ben'} Frequents) \join_{Frequents.bar=Bar.name} Bar) \join_{Frequents.drinker=Likes.drinker} Likes) \join_{Frequents.bar=Serves.bar and Likes.beer=Serves.beer} Serves);

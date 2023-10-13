@@ -1,0 +1,5 @@
+﻿  B.cpp
+D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\5주차\hw\B\B\B.cpp(10,21): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\5주차\hw\B\B\B.cpp(14,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\5주차\hw\B\B\B.cpp(15,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  B.vcxproj -> D:\Git_University_2023\2023 3학년 1학기 과제\알고리즘및실습\5주차\hw\B\x64\Debug\B.exe

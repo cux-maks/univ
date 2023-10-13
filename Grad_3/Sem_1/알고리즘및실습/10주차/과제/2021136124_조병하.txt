@@ -1,0 +1,5 @@
+A(memo) - https://judge.koreatech.ac.kr/showsource.php?id=100386
+B(table) - https://judge.koreatech.ac.kr/showsource.php?id=101127
+C(memo) - https://judge.koreatech.ac.kr/showsource.php?id=101114
+D(table) - https://judge.koreatech.ac.kr/showsource.php?id=101130
+E - https://judge.koreatech.ac.kr/showsource.php?id=101124
